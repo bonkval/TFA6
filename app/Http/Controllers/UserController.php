@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\User;
+use Illuminate\View\View;
+
+class UserController extends Controller
+{
+    public function index(): View
+    {
+        $users = User::orderBy('id')->get();
+
+        return view('users.index', [
+            'title' => 'POS Lab | User Accounts',
+            'heading' => 'User Accounts',
+            'users' => $users,
+        ]);
+    }
+}
