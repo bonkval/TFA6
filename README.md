@@ -1,33 +1,25 @@
 ## Screenshots
 
-![Home - dark theme, desktop](screenshots/home-dark.png)
+![Home - light mode desktop](screenshots/home-light.png)
 
-![About - dark theme, desktop](screenshots/about-dark.png)
+![About - light mode desktop](screenshots/about-light.png)
 
-![Customers - dark theme, desktop](screenshots/customers-dark.png)
+![Customers - light mode desktop](screenshots/customers-light.png)
 
-![Users - dark theme, desktop](screenshots/users-dark.png)
+![Users - light mode desktop](screenshots/users-light.png)
 
-![Home - light theme, desktop](screenshots/home-light.png)
+![1. Create migrations matching TFA2](screenshots/01-migrations.png)
 
-![About - light theme, desktop](screenshots/about-light.png)
+![2. Seed at least five records in each table](screenshots/02-seeder.png)
 
-![Customers - light theme, desktop](screenshots/customers-light.png)
+![2. Verify the persisted sample records](screenshots/03-database-records.png)
 
-![Users - light theme, desktop](screenshots/users-light.png)
+![3. Create Customer and User Eloquent models](screenshots/04-models.png)
 
-![Home - dark theme, mobile](screenshots/home-dark-mobile.png)
+![4. Retrieve records through Eloquent models](screenshots/05-controllers.png)
 
-![About - dark theme, mobile](screenshots/about-dark-mobile.png)
+![5. Render retrieved records in the original Blade tables](screenshots/06-blade-views.png)
 
-![Customers - dark theme, mobile](screenshots/customers-dark-mobile.png)
+![Database verification - applied migrations and unique username index](screenshots/07-applied-migrations.png)
 
-![Users - dark theme, mobile](screenshots/users-dark-mobile.png)
-
-![Home - light theme, mobile](screenshots/home-light-mobile.png)
-
-![About - light theme, mobile](screenshots/about-light-mobile.png)
-
-![Customers - light theme, mobile](screenshots/customers-light-mobile.png)
-
-![Users - light theme, mobile](screenshots/users-light-mobile.png)
+![Verification - database values appear in rendered pages](screenshots/08-tests.png)
